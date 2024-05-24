@@ -1,0 +1,2 @@
+name: nec_ir
+description: A quick-n-dirty implementation of the IR NEC protocol using the Toit RMT standard library. Impress your friends by turning their TV off with an ESP32!
