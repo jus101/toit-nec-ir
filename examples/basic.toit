@@ -1,15 +1,14 @@
 import gpio
-import ..src.transmitter
-import ..src.receiver
+import nec-ir
 import log
 
 main:
   log.set-default (log.default.with-level log.INFO-LEVEL)
   tx-pin := gpio.Pin.out 17
-  tx := Transmitter tx-pin
+  tx := nec-ir.Transmitter tx-pin
 
   rx-pin := gpio.Pin.out 18
-  rx := Receiver rx-pin
+  rx := nec-ir.Receiver rx-pin
 
   while 1:
     rx.start-reading

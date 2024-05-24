@@ -1,6 +1,6 @@
 # NEC IR
 
-This is a package containing A basic implementation of the IR NEC protocol using the Toit RMT standard library.
+A quick-n-dirty implementation of the IR NEC protocol using the standard Toit RMT library. Impress your friends by turning their TV off with an ESP32!
 
 Encode, transmit, receive, and decode IR pulses using the standard RMT library and the #[NEC IR protocol](https://www.digikey.com/en/maker/tutorials/2021/understanding-the-basics-of-infrared-communications#:~:text=The%20NEC%20IR%20transmission%20protocol&text=The%20standard%20NEC%20protocol%20uses,distinguish%20between%20HIGH%20and%20LOW.&text=Binary%20values%20are%20encoded%20as,a%201.687%20ms%20low%20period).
 
